@@ -1,0 +1,20 @@
+ul{
+    text-align: center;
+    
+}
+li{
+    display: inline;
+    color: red;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+div{
+    background-color: black;
+}
+img{
+    margin: 30%;
+    width: 500px;
+}
+    
