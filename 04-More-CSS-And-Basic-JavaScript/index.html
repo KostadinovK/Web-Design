@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .text-box{
+            background-color: gray;
+            width: 200px;
+            height: 300px;
+            display: none;
+        }
+
+    </style>
+    <script>
+        function showElement(){
+            document.getElementById('textb').setAttribute('style','display:block');
+        }
+
+        function hideElement(){
+            document.getElementById('textb').setAttribute('style','display:none');
+        }
+    </script>
+</head>
+<body>
+    <h1>My Site</h1>
+
+    <div id="sample-div"></div>
+
+    <ul>
+        <li>
+            <a onclick="showElement()" href="#">Home</a>
+        </li>
+        <li>
+            <a onclick="hideElement()" href="#">I dont want this text anymore</a>
+        </li>
+    </ul>
+
+    <div class="text-box" id="textb">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quibusdam dolorem non aperiam tempora ipsum commodi obcaecati. Doloremque provident dolore vero aliquam eligendi nihil nesciunt sed officiis illum eos, laudantium asperiores omnis iste. Optio accusamus voluptates consequatur, labore sequi rem asperiores reiciendis quae mollitia voluptas tempora, doloribus hic neque expedita.</p>
+    </div>
+</body>
+</html>
