@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color:  red;
+}
+h2{
+    color: white;
+    text-align: left;
+}
+
+ul{
+    text-align: center
+}
+
+li{
+    display: inline;
+    
+}
+
+div{
+    background-color: black;
+}
+
+.image-div{
+    text-align: center;
+}
+p{
+    color: white;
+}
+
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    color: red;
+}
